@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
   <title>Registration Form</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"/>
   <style>
     body {
-      background-color: #f0f4f8;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
       font-family: Arial, sans-serif;
       display: flex;
       justify-content: center;
@@ -12,19 +13,23 @@
       height: 100vh;
       margin: 0;
     }
-
     .form-box {
-      background-color: white;
+      background-color:#e8e8e8;
       padding: 40px;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       width: 350px;
     }
 
+
     h2 {
+      font-family: Georgia, serif;
+      font-size: 30px;
+      font-weight: 700;
+      color: #e53935;
       text-align: center;
-      color: #333;
-      margin-bottom: 20px;
+      margin-bottom: 6px;
+      letter-spacing: 1px;
     }
 
     label {
@@ -38,31 +43,35 @@
       width: 100%;
       padding: 10px;
       margin-bottom: 15px;
-      border: 1px solid #ccc;
+      border: 1px solid #cccccc;
       border-radius: 6px;
       font-size: 14px;
       box-sizing: border-box;
     }
 
     input:focus {
-      border-color: #4a90e2;
+      border-color: red;
       outline: none;
     }
 
     button {
       width: 100%;
-      padding: 10px;
-      background-color: #4a90e2;
-      color: white;
+      padding: 13px;
+      background: #e53935;
+      color: green;
       border: none;
-      border-radius: 6px;
-      font-size: 16px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
       cursor: pointer;
+      letter-spacing: 0.5px;
+      margin-top: 8px;
+      transition: background 0.2s, transform 0.1s;
     }
 
     button:hover {
-      background-color: #357abd;
-    }
+      background-color: #c62828
+    };
   </style>
 </head>
 <body>
